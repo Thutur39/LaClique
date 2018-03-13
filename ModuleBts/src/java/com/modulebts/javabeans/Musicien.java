@@ -9,18 +9,20 @@ package com.modulebts.javabeans;
  *
  * @author Maxence
  */
-
-
 public class Musicien {
-    
-private int idMusicien;
-private String nom;
-private Boolean laser;
-private Boolean camera;
-private String image;
 
-//Construc
-public Musicien(int idMusicien, String nom, Boolean laser, Boolean camera, String image) {
+    private int idMusicien;
+    private String nom;
+    private Boolean laser;
+    private Boolean camera;
+    private String image;
+
+//Constructeur vide
+    public Musicien() {
+    }
+
+//Constructeur
+    public Musicien(int idMusicien, String nom, Boolean laser, Boolean camera, String image) {
         this.idMusicien = idMusicien;
         this.nom = nom;
         this.laser = laser;
@@ -69,8 +71,4 @@ public Musicien(int idMusicien, String nom, Boolean laser, Boolean camera, Strin
         this.image = image;
     }
 
-
-
-    
-    
 }

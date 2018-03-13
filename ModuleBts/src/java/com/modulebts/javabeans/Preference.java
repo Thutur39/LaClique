@@ -1,4 +1,4 @@
-package com.modulebts;
+package com.modulebts.javabeans;
 
 import java.io.Serializable;
 import javax.ejb.Stateless;

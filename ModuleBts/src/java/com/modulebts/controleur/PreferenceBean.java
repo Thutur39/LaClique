@@ -5,7 +5,7 @@
  */
 package com.modulebts.controleur;
 
-import com.modulebts.Preference;
+import com.modulebts.javabeans.Preference;
 import com.modulebts.ejb.PreferenceBeanEJB;
 import javax.ejb.EJB;
 import javax.persistence.EntityManager;
